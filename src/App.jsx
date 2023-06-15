@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <div className="relative w-screen bg-slate-400">
+      <div className="relative w-screen">
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>

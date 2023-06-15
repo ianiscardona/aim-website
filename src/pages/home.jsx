@@ -25,7 +25,7 @@ export const Home = () => {
   ];
 
   return (
-    <div className="bg-fu relative box-border w-full overflow-hidden bg-slate-200 pt-20">
+    <div className="bg-fu relative box-border w-full overflow-hidden pt-20">
       <div className="text-8xl">
         <Marquee speed={20} className="overflow-hidden pb-2" direction="right">
           <h1 className="font-intertight">
