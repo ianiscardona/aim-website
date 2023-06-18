@@ -27,7 +27,7 @@ export const Home = () => {
   return (
     <div className="bg-fu relative box-border w-full overflow-hidden pt-20">
       <div className="text-8xl">
-        <Marquee speed={20} className="overflow-hidden pb-2" direction="right">
+        <Marquee speed={10} className="overflow-hidden pb-2" direction="right">
           <h1 className="font-intertight">
             {technologies1.map((tech, index) => (
               <span
@@ -39,7 +39,7 @@ export const Home = () => {
             ))}
           </h1>
         </Marquee>
-        <Marquee speed={20} className="overflow-hidden pb-2">
+        <Marquee speed={10} className="overflow-hidden pb-2">
           <h1 className="font-intertight">
             {technologies2.map((tech, index) => (
               <span
@@ -51,7 +51,7 @@ export const Home = () => {
             ))}
           </h1>
         </Marquee>
-        <Marquee speed={20} className="overflow-hidden pb-2" direction="right">
+        <Marquee speed={10} className="overflow-hidden pb-2" direction="right">
           <h1 className="font-intertight">
             {technologies3.map((tech, index) => (
               <span
