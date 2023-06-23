@@ -2,6 +2,7 @@
 import React from "react";
 import Marquee from "react-fast-marquee";
 
+// home page
 export const Home = () => {
   const technologies1 = [
     { text: "Javascript", color: "hover:text-yellow-500" },
